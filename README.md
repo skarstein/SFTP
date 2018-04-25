@@ -1,6 +1,6 @@
 # SFTP Client and Server
 
-This project consists of an SFTP (Simple File Transfer Protocol) client and server that exchange one file using TCP. The client accepts 4 arguments: the name of the two files(**input** and **output**), and the IP address (or Internet name) and the port number of the server. The server starts first and waits for a connection request. The client requests a connection and then sends the name of the file **output** for output and the data in file **input** to the server, which saves the info received in the file **output**. The client reads the file and sends the data in chunks of 10 bytes. After sending the file, the client closes the connection and exits. The server receives the data and writes the file in chunks of 5 bytes. 
+This project consists of an SFTP (Simple File Transfer Protocol) client and server that exchange one file using TCP. The client accepts 4 arguments: the name of the two files (**input** and **output**), and the IP address (or Internet name) and the port number of the server. The server starts first and waits for a connection request. The client requests a connection and then sends the name of the file **output** for output and the data in file **input** to the server, which saves the info received in the file **output**. The client reads the file and sends the data in chunks of 10 bytes. After sending the file, the client closes the connection and exits. The server receives the data and writes the file in chunks of 5 bytes. 
 
 ### Installing
 
